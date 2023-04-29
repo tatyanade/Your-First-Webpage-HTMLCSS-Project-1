@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Raleway:wght@300&display=swap');
+body{
+  background-image: url("images/bg.png");
+}
+
+h1{
+  font-family: 'Itim', serif;
+  font-size: 40pt;
+  margin-left: 10%;
+}
+
+h2{
+  font-family: 'Itim', serif;
+  font-size: 3em;
+  margin-left: 12%;
+}
+
+h3{
+  font-family: 'Itim', serif;
+  font-size: 30pt;
+  margin-left: 13%;
+}
+
+p{
+  font-family: 'Raleway', sans-serif;
+  margin-left: 15%;
+  max-width: 40%;
+  font-size: 23px;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+table{
+  margin-left: 15%;
+}
+ 
+p + .room{
+  margin-left: 15%;
+}
+.room{
+  height: 125px;
+  display: inline-block;
+  border: 10px solid #ebbb63;
+  padding-top: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: -90px;
+  background-image: url("images/wallpapers/white-wall-floor.png");
+}
+
+img.room{
+  width: 50%;
+}
+
+#sunroom{
+  background: red;
+  background-image: url("images/wallpapers/windows.png");
+}
+
+th > .room {
+  display: block;
+}
+
+img {
+  bottom:0;
+  /* verticle-align:bottom; */
+}
+
+#hasBlueTiles{
+  background-image: url("images/wallpapers/blue-tile.png");
+}
+
+#hasBathroomTiles{
+  background-image: url("images/wallpapers/bathroom-tile.png");
+}
+
+#hasStripedWallpaper{
+  background-image: url("images/wallpapers/stripes.png");
+}
+
+#hasGreenWallpaper{
+  background-image: url("images/wallpapers/green.png");
+}
